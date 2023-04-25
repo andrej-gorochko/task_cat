@@ -1,0 +1,9 @@
+Запрос для создания бд.
+CREATE TABLE cats (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    birthdate DATE NOT NULL,
+    breed VARCHAR(255) NOT NULL,
+    color VARCHAR(255) NOT NULL,
+    photo TEXT NOT NULL
+);
