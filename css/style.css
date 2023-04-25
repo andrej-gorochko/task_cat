@@ -1,0 +1,77 @@
+label {
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="date"],
+  select {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+
+  th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pagination label {
+    margin: 0 10px;
+  }
+
+  .pagination input[type="text"] {
+    margin-right: 10px;
+    margin-left: 5px;
+    text-align: center;
+  }
+
+  .pagination button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .pagination button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
